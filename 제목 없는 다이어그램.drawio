@@ -1,39 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T19:36:37.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="HzIzwyqh9b-1LaM6eNzH" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T20:08:09.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="l_LGLiRaYG8WssVhQvD7" version="23.0.1" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
-    <mxGraphModel dx="677" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="510" width="20" height="300" as="geometry" />
+          <mxGeometry x="1320" y="510" width="20" height="450" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-1">
           <mxGeometry x="5" y="60" width="10" height="220" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-2" value=":사용자 포탈" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="500" width="100" height="300" as="geometry" />
+          <mxGeometry x="1420" y="500" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-2">
-          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-3" value=":API GATEWAY" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="500" width="100" height="300" as="geometry" />
+          <mxGeometry x="1740" y="500" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-3">
-          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fuTHmA_H6qqFmT9C-mlB-11" value="2. 요청 전달" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="fuTHmA_H6qqFmT9C-mlB-3">
-          <mxGeometry x="0.0029" relative="1" as="geometry">
-            <mxPoint x="-125" y="90" as="sourcePoint" />
-            <mxPoint x="44.5" y="90" as="targetPoint" />
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-3">
+          <mxGeometry x="45" y="260" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-4" value=":Auth service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="500" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-4">
+          <mxGeometry x="45" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-4">
+          <mxGeometry x="45" y="260" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-31" value="8. 결과 return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=12;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="fuTHmA_H6qqFmT9C-mlB-4" target="fuTHmA_H6qqFmT9C-mlB-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="345" as="targetPoint" />
+            <mxPoint x="225" y="345" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fuTHmA_H6qqFmT9C-mlB-4" value=":Auth service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="500" width="100" height="300" as="geometry" />
-        </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-5" value=":LDAP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="500" width="100" height="300" as="geometry" />
+          <mxGeometry x="2100" y="500" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="fuTHmA_H6qqFmT9C-mlB-5">
+          <mxGeometry x="45" y="270" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fuTHmA_H6qqFmT9C-mlB-8" value="1. 회원가입 요청" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=12;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-7" parent="1" source="fuTHmA_H6qqFmT9C-mlB-6">
           <mxGeometry x="0.04" relative="1" as="geometry">
@@ -42,17 +54,56 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fuTHmA_H6qqFmT9C-mlB-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="650" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="fuTHmA_H6qqFmT9C-mlB-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-13" parent="1">
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-11" value="2. 회원가입 요청 API 호출" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-10" parent="1" source="fuTHmA_H6qqFmT9C-mlB-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1440" y="655" as="sourcePoint" />
+            <mxPoint x="1480" y="580" as="sourcePoint" />
+            <mxPoint x="1640" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fuTHmA_H6qqFmT9C-mlB-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=12;" edge="1" source="fuTHmA_H6qqFmT9C-mlB-13" parent="1">
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-14" value="3. API ROUTING" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-13" parent="1" source="fuTHmA_H6qqFmT9C-mlB-10">
+          <mxGeometry y="5" relative="1" as="geometry">
+            <mxPoint x="1805" y="640" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-22" value="4. 회원가입 페이지 url return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="fuTHmA_H6qqFmT9C-mlB-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1440" y="725" as="targetPoint" />
+            <mxPoint x="1780" y="620" as="sourcePoint" />
+            <mxPoint x="1795" y="685" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-24" value="5. 회원가입 API 호출" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-23" parent="1" source="fuTHmA_H6qqFmT9C-mlB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="520" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-27" value="6. API ROUTING" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-26" parent="1" source="fuTHmA_H6qqFmT9C-mlB-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="720" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-30" value="7. 회원정보 저장" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" target="fuTHmA_H6qqFmT9C-mlB-29" parent="1" source="fuTHmA_H6qqFmT9C-mlB-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-33" value="5. 요청 전달" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="fuTHmA_H6qqFmT9C-mlB-10" target="fuTHmA_H6qqFmT9C-mlB-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="715" as="sourcePoint" />
+            <mxPoint x="1480" y="695" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuTHmA_H6qqFmT9C-mlB-34" value="6. 요청 전달" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="fuTHmA_H6qqFmT9C-mlB-7" target="fuTHmA_H6qqFmT9C-mlB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="750" as="sourcePoint" />
+            <mxPoint x="1460" y="750" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
